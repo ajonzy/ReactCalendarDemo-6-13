@@ -1,0 +1,13 @@
+.content-wrapper {
+    width: 75vw;
+    height: calc(100vh - 129px);
+    border: 1px solid black;
+
+    .days-wrapper {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        justify-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
